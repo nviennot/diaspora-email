@@ -43,7 +43,6 @@ gem 'jquery-rails'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-gem 'promiscuous', github: 'nviennot/promiscuous', branch: 'master'
 gem 'pg'
 gem 'haml'
 
@@ -51,3 +50,5 @@ group :development do
   gem 'pry'
   gem 'letter_opener'
 end
+
+gem 'promiscuous', github: 'nviennot/promiscuous', branch: 'master'
